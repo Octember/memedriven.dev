@@ -19,7 +19,7 @@ exports.createPages = ({ graphql, actions }) => {
       result.data.allDatoCmsProject.edges.map(({ node: project }) => {
         createPage({
           path: `projects/${project.slug}`,
-          component: path.resolve(`./src/templates/project.js`),
+          component: path.resolve(`./src/templates/project.tsx`),
           context: {
             slug: project.slug,
           },

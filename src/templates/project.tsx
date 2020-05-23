@@ -26,7 +26,7 @@ export default ({ data }) => (
           }}
         />
         <div className="sheet__gallery">
-          <Img fluid={data.datoCmsProject.coverImage.fluid} />
+          <Img fluid={data.datoCmsProject.coverImage?.fluid} />
         </div>
       </div>
     </article>
