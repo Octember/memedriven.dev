@@ -27,7 +27,7 @@ exports.createPages = ({ graphql, actions }) => {
       })
       createPage({
         path: `map`,
-        component: path.resolve(`./src/pages/neighborhoodMap.js`),
+        component: path.resolve(`./src/pages/neighborhoodMap.tsx`),
       })
       resolve()
     })
